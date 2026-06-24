@@ -41,6 +41,16 @@ flowchart TD
 
 ---
 
+## Dashboard
+
+![Scores per Question](screenshots/bar_chart.png)
+
+![Pass / Fail Breakdown](screenshots/donut_chart.png)
+
+![Results Table](screenshots/results_table.png)
+
+---
+
 ## Evaluation Results
 
 Scores across 9 golden test cases (7 real + 2 deliberate fail rows):
@@ -200,6 +210,8 @@ The recipe dataset was built by merging two public Kaggle datasets:
 > The `cleaned-indian-recipes-dataset` is a subset of the `indian-food-nutrition` dataset. Both were merged and further cleaned (column normalisation, duplicate removal, null handling) via `rag_pipeline.py → clean_and_save()`.
 >
 > Raw data is not included in this repository (see `.gitignore`). Download the source datasets from Kaggle and place them in `data/` before running `rag_pipeline.py`.
+
+---
 
 ## Skills Demonstrated
 
