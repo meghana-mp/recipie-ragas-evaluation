@@ -65,6 +65,41 @@ The 2 deliberately mismatched rows (wrong context paired with unrelated question
 
 ---
 
+## RAGAS — The Evaluation Framework
+
+[RAGAS](https://docs.ragas.io) (Retrieval Augmented Generation Assessment) is an open-source framework for evaluating RAG pipelines. Instead of manually checking whether answers are correct, RAGAS automates quality measurement using an LLM as the judge.
+
+### How RAGAS is Used Here
+
+```
+Golden Dataset (question + context + ground_truth)
+        ↓
+Phi-4 Mini generates an answer
+        ↓
+RAGAS packages everything into SingleTurnSample objects
+        ↓
+RAGAS evaluate() runs 3 metrics — each calls Claude Sonnet as judge
+        ↓
+Scores (0–1) per row → saved to CSV → visualised in dashboard
+```
+
+### How Claude is Plugged In
+
+By default RAGAS uses OpenAI as the judge. This project replaces it with Claude Sonnet 4.6 via LangChain's wrapper:
+
+```python
+from ragas.llms import LangchainLLMWrapper
+from langchain_anthropic import ChatAnthropic
+
+faithfulness.llm      = LangchainLLMWrapper(ChatAnthropic(model="claude-sonnet-4-6"))
+context_precision.llm = LangchainLLMWrapper(ChatAnthropic(model="claude-sonnet-4-6"))
+answer_relevancy.llm  = LangchainLLMWrapper(ChatAnthropic(model="claude-sonnet-4-6"))
+```
+
+Claude is chosen as judge because it follows structured YES/NO and numeric scoring instructions more reliably than smaller models, producing consistent scores across runs.
+
+---
+
 ## RAG Triad — What Each Metric Measures
 
 ```
@@ -114,9 +149,10 @@ recipie-ragas-evaluation/
 │   ├── indian_recipies_dataset.csv    # 9 curated test cases
 │   └── indian_recipies_dataset.xlsx   # Same data in Excel
 │
-├── eval_results/                      # CSVs written by tests (gitignored)
-├── data/                              # Raw + cleaned CSVs (gitignored)
-├── chroma_db/                         # Vector index (gitignored)
+├── eval_results/                      # Evaluation result CSVs (committed — dashboard ready)
+├── data/
+│   └── cleaned_indian_recipes.csv     # Cleaned recipe dataset (committed)
+├── chroma_db/                         # Vector index — auto-generated, gitignored
 ├── Example.ipynb                      # Standalone RAG Triad demo
 ├── requirements.txt
 └── PROJECT_OVERVIEW.md                # Full technical deep-dive
