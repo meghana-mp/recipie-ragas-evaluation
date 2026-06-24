@@ -188,6 +188,19 @@ Rows 8–9 pair questions with completely wrong contexts. If the evaluator passe
 
 ---
 
+## Data Sources
+
+The recipe dataset was built by merging two public Kaggle datasets:
+
+| Dataset | Author | Link |
+|---------|--------|------|
+| Indian Food Nutrition | batthulavinay | [kaggle.com/datasets/batthulavinay/indian-food-nutrition](https://www.kaggle.com/datasets/batthulavinay/indian-food-nutrition) |
+| Cleaned Indian Recipes Dataset *(subset)* | sooryaprakash12 | [kaggle.com/datasets/sooryaprakash12/cleaned-indian-recipes-dataset](https://www.kaggle.com/datasets/sooryaprakash12/cleaned-indian-recipes-dataset) |
+
+> The `cleaned-indian-recipes-dataset` is a subset of the `indian-food-nutrition` dataset. Both were merged and further cleaned (column normalisation, duplicate removal, null handling) via `rag_pipeline.py → clean_and_save()`.
+>
+> Raw data is not included in this repository (see `.gitignore`). Download the source datasets from Kaggle and place them in `data/` before running `rag_pipeline.py`.
+
 ## Skills Demonstrated
 
 - RAG pipeline design and implementation
