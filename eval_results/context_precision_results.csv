@@ -1,0 +1,41 @@
+run_timestamp,judge_model,question,answer,contexts_preview,ground_truth,context_precision,pass_fail,threshold
+2026-06-24T08:37:17.938606+00:00,claude-sonnet-4-6,How do I make Ragi Semiya Upma Recipe - Ragi Millet Vermicelli Breakfast?,"To prepare the Ragi Semiya Upma, begin by steaming 1-1/2 cups rice vermicelli noodles in either a rice cooker or steamer until firm but cooked. In parallel, heat ghee (or oil) and add hing to sizzle for about 30 seconds before adding mustard seeds and urad dal; let it crackle while watching closely so they don't burn.
+
+Once the tempering is ready after cracking properly, increase heat slightly higher if needed as you cook onions in a kadai until they're translucent. Add green chillies along with par-boiled carrots (chopped) and peas to this mixture.
+
+
+After sautéing these vegetables for 2-3 minutes or till they are semi-cooked but not fully cooked through—stirring them occasionally—you'll introduce the steamed vermicelli noodles into your pot, combining everything well. Take out of heat when done.
+
+Serve immediately with a generous drizzle of lemon juice on top and enjoy it along with Coconut Chutney for dipping.
+
+
+Please note that this answer is based solely upon provided recipe information; no exact timing or additional steps are included as they were not specified in the given context.","Recipe Name: Ragi Semiya Upma Recipe - Ragi Millet Vermicelli Breakfast
+Cuisine: South Indian Recipes
+Cooking Time: 50 minutes
+Calories: 149.11 kcal
+Ingredients: 1 Onion - sliced,1 teaspoon White Urad","To make Ragi Semiya Upma Recipe - Ragi Millet Vermicelli Breakfast, follow these instructions:
+To begin making the Ragi Vermicelli Recipe, first steam the ragi vermicelli in a rice cooker or a steamer for about 5-6 minutes or till it is cooked but firm.Keep aside this aside till later use.
+You can add a few drops of oil and mix it so that they don't stick to each other.Place a kadai on the heat, add the ghee or oil to it and when warm add hing and allow it to sizzle for 30 seconds.
+Then follow it up with mustard seeds, urad dal and curry leaves, and allow them to crackle.Saute for 1 minute or so till the urad dal is slightly browned.Then, add onions and fry till translucent and soft.Next, add the green chillies along with par boiled carrots and peas.
+Sprinkle some salt and cook for 2-3 minutes or until the vegetables are semi cooked.Then, add the steamed ragi vermicelli toss it together so the vegetables are all well combined.Switch off the heat, take the vermicelli out into a serving dish and to with lemon juice.
+Mix well and serve along with Coconut Chutney and a hot cup of coffee or tea for a wholesome breakfast.",1.0,True,0.5
+2026-06-24T08:37:17.938606+00:00,claude-sonnet-4-6,What ingredients do I need to prepare Ragi Semiya Upma Recipe - Ragi Millet Vermicelli Breakfast?,"To make the Ragi Semiya Upma Recipe, you will require:
+
+- 1 Onion
+- White Urad Dal (Split) – 1 teaspoon
+- Green Chillies – as required by taste preference or quantity mentioned in context is not provided.
+- Salt to your liking for seasoning purposes only specified quantity omitted since it’s ""to taste.""
+- Lemon juice - 1 teaspoon
+- Ghee, alternatively you can use oil if ghee isn’t available. Quantity was missing but typically one would need around a tablespoon (15 ml) of either substance which is common in Indian cooking.
+- Mustard seeds – approximately 1/3 cup based on typical usage unless the context specifies otherwise since no exact amount for mustard seed preparation mentioned there it’s assumed to be standard quantity used by cookery rules
+- Green peas, Matar - roughly a third cup (around 100 grams) as per common serving.
+- Asafoetida or Hing – about one-fourth teaspoon is sufficient according to the context provided instructions don’t specify exact amount for asafoetida/hing it’s usually added in small quantities due its strong flavor and aroma, so around quarter of a teaspoon can be considered standard quantity unless otherwise specified by regional cooking practice.
+- Carrots (Gajjar) - Chopped roughly half cup based on the context provided instructions don’t specify exact amount for carrots as per common serving rules it is usually served in lesser quantities compared to other veggies like tomatoes due its fibrous texture and dense nutrient packing so about 50 grams chopped would be an assumed quantity.
+- Curry leaves – approximately a sprig, since curry leaf's flavor intensity can vary greatly depending upon the regional cuisine variations or taste preference
+- Rice Vermicelli Noodles (Thin) - roughly one-and-a-half cup cooked as per context provided instructions
+
+Please note that standard quantities for Indian cooking may differ based on personal preferences and serving sizes. The above is an estimation of what you would need to prepare Ragi Semiya Upma Recipe given the missing numerical details in your original instruction set.","Recipe Name: Ragi Semiya Upma Recipe - Ragi Millet Vermicelli Breakfast
+Cuisine: South Indian Recipes
+Cooking Time: 50 minutes
+Calories: 149.11 kcal
+Ingredients: 1 Onion - sliced,1 teaspoon White Urad","The ingredients required for Ragi Semiya Upma Recipe - Ragi Millet Vermicelli Breakfast are: 1 Onion - sliced,1 teaspoon White Urad Dal (Split),2 Green Chillies,Salt - to taste,1 teaspoon Lemon juice,1 teaspoon Ghee,1 teaspoon Mustard seeds,1/3 cup Green peas (Matar),1/4 teaspoon Asafoetida (hing),1/2 cup Carrots (Gajjar) - chopped,1 sprig Curry leaves,1-1/2 cups Rice Vermicelli Noodles (Thin)",1.0,True,0.5
