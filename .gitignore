@@ -11,9 +11,10 @@
 # RAW & GENERATED DATA — large files, auto-generated, or proprietary
 # =============================================================================
 
-# Raw source data (may be proprietary / licensed)
+# Raw source data (original Kaggle download — not redistributed)
 data/indian_recipies.csv
-data/cleaned_indian_recipes.csv
+
+# cleaned_indian_recipes.csv is committed — it is the processed output of rag_pipeline.py
 
 # ChromaDB vector index — binary, large, rebuilt by running rag_pipeline.py
 chroma_db/
